@@ -1,0 +1,29 @@
+# YouTube Data Collection (Layer 1)
+google-api-python-client>=2.0.0
+youtube-transcript-api>=0.6.0
+youtube-comment-downloader>=0.1.0
+isodate>=0.6.0
+
+# Sentiment Analysis (Layer 2 & 3)
+vaderSentiment>=3.3.0
+pysentimiento>=0.7.0
+
+# Natural Language Processing
+nltk>=3.8.0
+
+# Data Analysis & Statistics
+pandas>=1.5.0
+numpy>=1.23.0
+scipy>=1.10.0
+statsmodels>=0.14.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Jupyter Notebooks
+ipython>=8.0.0
+jupyter>=1.0.0
+
+# Optional but recommended
+wordnet>=0.0.1b2

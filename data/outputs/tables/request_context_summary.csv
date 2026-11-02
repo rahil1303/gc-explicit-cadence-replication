@@ -1,6 +1,0 @@
-collector,requests,median_explicit_reduction_mb,median_natural_before_reduction_mb,median_natural_before_events,median_explicit_pause_ms
-G1,1989,303.7,11551.5,27.0,40.1
-Parallel,1988,246.2,9815.25,7.0,44.9
-Serial,1995,215.4,13220.0,25.0,104.0
-Shenandoah,1975,5300.8,7320.6,2.0,0.268
-ZGC,1983,3132.4,8800.0,1.0,0.0333

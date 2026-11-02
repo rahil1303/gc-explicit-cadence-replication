@@ -1,6 +1,0 @@
-collector,requests,realised_requests,min_events_per_request,median_events_per_request,mean_events_per_request,max_events_per_request
-G1,1989,1989,1,1.0,1.0,1
-Parallel,1988,1988,2,2.0,2.0,2
-Serial,1995,1995,1,1.0,1.0,1
-Shenandoah,1975,1975,1,1.0,1.0,1
-ZGC,1983,1983,1,1.0,1.0,1
