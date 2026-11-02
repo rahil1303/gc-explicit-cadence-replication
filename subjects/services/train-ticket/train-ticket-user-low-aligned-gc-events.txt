@@ -1,0 +1,693 @@
+jdk.GCHeapSummary {
+  startTime = 21:41:25.058 (2026-08-31)
+  gcId = 41
+  when = "Before GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x788F00000
+    committedSize = 143.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 117.7 MB
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:41:25.073 (2026-08-31)
+  gcId = 41
+  when = "After GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x788F00000
+    committedSize = 143.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 41.1 MB
+}
+
+jdk.GarbageCollection {
+  startTime = 21:41:25.058 (2026-08-31)
+  duration = 14.2 ms
+  gcId = 41
+  name = "G1New"
+  cause = "G1 Evacuation Pause"
+  sumOfPauses = 14.2 ms
+  longestPause = 14.2 ms
+  eventThread = "VM Thread" (osThreadId = 20227)
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:41:34.035 (2026-08-31)
+  gcId = 42
+  when = "Before GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x788F00000
+    committedSize = 143.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 107.1 MB
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:41:34.042 (2026-08-31)
+  gcId = 42
+  when = "After GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x788F00000
+    committedSize = 143.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 41.2 MB
+}
+
+jdk.GarbageCollection {
+  startTime = 21:41:34.035 (2026-08-31)
+  duration = 6.51 ms
+  gcId = 42
+  name = "G1New"
+  cause = "CodeCache GC Threshold"
+  sumOfPauses = 6.51 ms
+  longestPause = 6.51 ms
+  eventThread = "VM Thread" (osThreadId = 20227)
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:41:34.042 (2026-08-31)
+  gcId = 43
+  when = "Before GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x788F00000
+    committedSize = 143.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 41.2 MB
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:41:34.098 (2026-08-31)
+  gcId = 43
+  when = "After GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x788C00000
+    committedSize = 140.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 42.2 MB
+}
+
+jdk.GarbageCollection {
+  startTime = 21:41:34.042 (2026-08-31)
+  duration = 56.7 ms
+  gcId = 43
+  name = "G1Old"
+  cause = "CodeCache GC Threshold"
+  sumOfPauses = 13.3 ms
+  longestPause = 13.2 ms
+  eventThread = "G1 Main Marker" (osThreadId = 13315)
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:41:44.743 (2026-08-31)
+  gcId = 44
+  when = "Before GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x788C00000
+    committedSize = 140.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 119.2 MB
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:41:44.747 (2026-08-31)
+  gcId = 44
+  when = "After GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x788C00000
+    committedSize = 140.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 41.4 MB
+}
+
+jdk.GarbageCollection {
+  startTime = 21:41:44.743 (2026-08-31)
+  duration = 4.00 ms
+  gcId = 44
+  name = "G1New"
+  cause = "G1 Evacuation Pause"
+  sumOfPauses = 4.00 ms
+  longestPause = 4.00 ms
+  eventThread = "VM Thread" (osThreadId = 20227)
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:41:55.818 (2026-08-31)
+  gcId = 45
+  when = "Before GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x788C00000
+    committedSize = 140.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 119.4 MB
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:41:55.832 (2026-08-31)
+  gcId = 45
+  when = "After GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x788C00000
+    committedSize = 140.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 40.7 MB
+}
+
+jdk.GarbageCollection {
+  startTime = 21:41:55.818 (2026-08-31)
+  duration = 13.7 ms
+  gcId = 45
+  name = "G1New"
+  cause = "G1 Evacuation Pause"
+  sumOfPauses = 13.7 ms
+  longestPause = 13.7 ms
+  eventThread = "VM Thread" (osThreadId = 20227)
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:42:08.633 (2026-08-31)
+  gcId = 46
+  when = "Before GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x788C00000
+    committedSize = 140.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 118.7 MB
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:42:08.642 (2026-08-31)
+  gcId = 46
+  when = "After GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x788C00000
+    committedSize = 140.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 40.5 MB
+}
+
+jdk.GarbageCollection {
+  startTime = 21:42:08.633 (2026-08-31)
+  duration = 8.73 ms
+  gcId = 46
+  name = "G1New"
+  cause = "G1 Evacuation Pause"
+  sumOfPauses = 8.73 ms
+  longestPause = 8.73 ms
+  eventThread = "VM Thread" (osThreadId = 20227)
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:42:20.392 (2026-08-31)
+  gcId = 47
+  when = "Before GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x788C00000
+    committedSize = 140.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 118.5 MB
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:42:20.397 (2026-08-31)
+  gcId = 47
+  when = "After GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x788C00000
+    committedSize = 140.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 40.5 MB
+}
+
+jdk.GarbageCollection {
+  startTime = 21:42:20.392 (2026-08-31)
+  duration = 4.78 ms
+  gcId = 47
+  name = "G1New"
+  cause = "G1 Evacuation Pause"
+  sumOfPauses = 4.78 ms
+  longestPause = 4.78 ms
+  eventThread = "VM Thread" (osThreadId = 20227)
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:42:20.397 (2026-08-31)
+  gcId = 48
+  when = "Before GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x788C00000
+    committedSize = 140.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 40.5 MB
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:42:20.458 (2026-08-31)
+  gcId = 48
+  when = "After GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x788900000
+    committedSize = 137.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 41.5 MB
+}
+
+jdk.GarbageCollection {
+  startTime = 21:42:20.397 (2026-08-31)
+  duration = 60.6 ms
+  gcId = 48
+  name = "G1Old"
+  cause = "G1 Evacuation Pause"
+  sumOfPauses = 20.4 ms
+  longestPause = 20.3 ms
+  eventThread = "G1 Main Marker" (osThreadId = 13315)
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:42:23.444 (2026-08-31)
+  gcId = 49
+  when = "Before GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x788900000
+    committedSize = 137.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 61.5 MB
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:42:23.482 (2026-08-31)
+  gcId = 49
+  when = "After GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x787C00000
+    committedSize = 124.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 35.3 MB
+}
+
+jdk.GarbageCollection {
+  startTime = 21:42:23.444 (2026-08-31)
+  duration = 38.5 ms
+  gcId = 49
+  name = "G1Full"
+  cause = "System.gc()"
+  sumOfPauses = 38.5 ms
+  longestPause = 38.5 ms
+  eventThread = "VM Thread" (osThreadId = 20227)
+}
+
+jdk.SystemGC {
+  startTime = 21:42:23.444 (2026-08-31)
+  duration = 38.6 ms
+  invokedConcurrent = false
+  eventThread = "http-nio-12342-exec-9" (javaThreadId = 52)
+  stackTrace = [
+    java.lang.Runtime.gc()
+    java.lang.System.gc() line: 1951
+    user.service.impl.UserServiceImpl.findByUserName(String, HttpHeaders) line: 218
+    user.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$80b51698.invoke(int, Object, Object[])
+    org.springframework.cglib.proxy.MethodProxy.invoke(Object, Object[]) line: 218
+    ...
+  ]
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:42:34.576 (2026-08-31)
+  gcId = 50
+  when = "Before GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x787C00000
+    committedSize = 124.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 109.3 MB
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:42:34.580 (2026-08-31)
+  gcId = 50
+  when = "After GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x789500000
+    committedSize = 149.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 36.3 MB
+}
+
+jdk.GarbageCollection {
+  startTime = 21:42:34.576 (2026-08-31)
+  duration = 3.35 ms
+  gcId = 50
+  name = "G1New"
+  cause = "G1 Evacuation Pause"
+  sumOfPauses = 3.35 ms
+  longestPause = 3.35 ms
+  eventThread = "VM Thread" (osThreadId = 20227)
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:42:34.580 (2026-08-31)
+  gcId = 51
+  when = "Before GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x789500000
+    committedSize = 149.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 36.3 MB
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:42:34.629 (2026-08-31)
+  gcId = 51
+  when = "After GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x787F00000
+    committedSize = 127.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 37.3 MB
+}
+
+jdk.GarbageCollection {
+  startTime = 21:42:34.580 (2026-08-31)
+  duration = 49.6 ms
+  gcId = 51
+  name = "G1Old"
+  cause = "G1 Evacuation Pause"
+  sumOfPauses = 4.25 ms
+  longestPause = 4.16 ms
+  eventThread = "G1 Main Marker" (osThreadId = 13315)
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:42:45.400 (2026-08-31)
+  gcId = 52
+  when = "Before GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x787F00000
+    committedSize = 127.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 111.3 MB
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:42:45.401 (2026-08-31)
+  gcId = 52
+  when = "After GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x787F00000
+    committedSize = 127.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 35.6 MB
+}
+
+jdk.GarbageCollection {
+  startTime = 21:42:45.400 (2026-08-31)
+  duration = 0.853 ms
+  gcId = 52
+  name = "G1New"
+  cause = "G1 Evacuation Pause"
+  sumOfPauses = 0.853 ms
+  longestPause = 0.853 ms
+  eventThread = "VM Thread" (osThreadId = 20227)
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:42:55.949 (2026-08-31)
+  gcId = 53
+  when = "Before GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x787F00000
+    committedSize = 127.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 110.6 MB
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:42:55.951 (2026-08-31)
+  gcId = 53
+  when = "After GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x787F00000
+    committedSize = 127.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 35.4 MB
+}
+
+jdk.GarbageCollection {
+  startTime = 21:42:55.949 (2026-08-31)
+  duration = 1.72 ms
+  gcId = 53
+  name = "G1New"
+  cause = "G1 Evacuation Pause"
+  sumOfPauses = 1.72 ms
+  longestPause = 1.72 ms
+  eventThread = "VM Thread" (osThreadId = 20227)
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:43:06.464 (2026-08-31)
+  gcId = 54
+  when = "Before GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x787F00000
+    committedSize = 127.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 110.4 MB
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:43:06.466 (2026-08-31)
+  gcId = 54
+  when = "After GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x787F00000
+    committedSize = 127.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 35.4 MB
+}
+
+jdk.GarbageCollection {
+  startTime = 21:43:06.464 (2026-08-31)
+  duration = 1.53 ms
+  gcId = 54
+  name = "G1New"
+  cause = "G1 Evacuation Pause"
+  sumOfPauses = 1.53 ms
+  longestPause = 1.53 ms
+  eventThread = "VM Thread" (osThreadId = 20227)
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:43:06.466 (2026-08-31)
+  gcId = 55
+  when = "Before GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x787F00000
+    committedSize = 127.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 35.4 MB
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:43:06.518 (2026-08-31)
+  gcId = 55
+  when = "After GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x787F00000
+    committedSize = 127.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 36.4 MB
+}
+
+jdk.GarbageCollection {
+  startTime = 21:43:06.466 (2026-08-31)
+  duration = 51.9 ms
+  gcId = 55
+  name = "G1Old"
+  cause = "G1 Evacuation Pause"
+  sumOfPauses = 11.7 ms
+  longestPause = 11.6 ms
+  eventThread = "G1 Main Marker" (osThreadId = 13315)
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:43:16.987 (2026-08-31)
+  gcId = 56
+  when = "Before GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x787F00000
+    committedSize = 127.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 110.4 MB
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:43:16.988 (2026-08-31)
+  gcId = 56
+  when = "After GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x787F00000
+    committedSize = 127.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 35.4 MB
+}
+
+jdk.GarbageCollection {
+  startTime = 21:43:16.987 (2026-08-31)
+  duration = 0.788 ms
+  gcId = 56
+  name = "G1New"
+  cause = "G1 Evacuation Pause"
+  sumOfPauses = 0.788 ms
+  longestPause = 0.788 ms
+  eventThread = "VM Thread" (osThreadId = 20227)
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:43:19.503 (2026-08-31)
+  gcId = 57
+  when = "Before GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x787F00000
+    committedSize = 127.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 53.4 MB
+}
+
+jdk.GCHeapSummary {
+  startTime = 21:43:19.528 (2026-08-31)
+  gcId = 57
+  when = "After GC"
+  heapSpace = {
+    start = 0x780000000
+    committedEnd = 0x787F00000
+    committedSize = 127.0 MB
+    reservedEnd = 0x800000000
+    reservedSize = 2.0 GB
+  }
+  heapUsed = 35.4 MB
+}
+
+jdk.GarbageCollection {
+  startTime = 21:43:19.503 (2026-08-31)
+  duration = 24.9 ms
+  gcId = 57
+  name = "G1Full"
+  cause = "System.gc()"
+  sumOfPauses = 24.9 ms
+  longestPause = 24.9 ms
+  eventThread = "VM Thread" (osThreadId = 20227)
+}
+
+jdk.SystemGC {
+  startTime = 21:43:19.503 (2026-08-31)
+  duration = 25.0 ms
+  invokedConcurrent = false
+  eventThread = "http-nio-12342-exec-6" (javaThreadId = 49)
+  stackTrace = [
+    java.lang.Runtime.gc()
+    java.lang.System.gc() line: 1951
+    user.service.impl.UserServiceImpl.findByUserName(String, HttpHeaders) line: 218
+    user.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$80b51698.invoke(int, Object, Object[])
+    org.springframework.cglib.proxy.MethodProxy.invoke(Object, Object[]) line: 218
+    ...
+  ]
+}
+
