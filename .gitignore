@@ -1,0 +1,106 @@
+# ============================================================
+# Java GC Explicit-Cadence Study
+# Local/generated artefacts excluded from version control
+# ============================================================
+
+# ------------------------------------------------------------
+# macOS / editor files
+# ------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# ------------------------------------------------------------
+# Python
+# ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# ------------------------------------------------------------
+# Java / Maven / Gradle / Ant build artefacts
+# ------------------------------------------------------------
+**/target/
+**/build/
+**/.gradle/
+*.class
+
+# Keep source callback, ignore compiled copy
+instrumentation/CadenceCallback.class
+
+# ------------------------------------------------------------
+# Nested Git repositories from upstream subjects
+# ------------------------------------------------------------
+**/.git/
+
+# ------------------------------------------------------------
+# DaCapo distribution/runtime
+#
+# DaCapo is an external benchmark dependency and should be
+# downloaded separately rather than stored in this repository.
+# ------------------------------------------------------------
+subjects/dacapo/dacapo-23.11-MR2-chopin/
+subjects/dacapo/dacapo-23.11-MR2-chopin.jar
+
+# DaCapo-generated GC logs
+subjects/dacapo/gc-*.log
+subjects/dacapo/gc-*.log.*
+
+# ------------------------------------------------------------
+# Experimental raw data
+#
+# Production/raw measurement artefacts are intentionally kept
+# outside source control. Processed result datasets can be added
+# deliberately later.
+# ------------------------------------------------------------
+results/**/raw/
+
+# Measurement artefacts
+*.jfr
+*.jfc
+*.log
+*.log.*
+energibridge.csv
+energy.csv
+
+# JVM artefacts
+hs_err_pid*
+replay_pid*
+
+# ------------------------------------------------------------
+# Temporary/runtime state
+# ------------------------------------------------------------
+*.pid
+*.done
+workload.done
+nohup.out
+
+# ------------------------------------------------------------
+# Common service/application generated directories
+# ------------------------------------------------------------
+**/node_modules/
+**/.mvn/wrapper/maven-wrapper.jar
+
+# ------------------------------------------------------------
+# Local databases / storage
+# ------------------------------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# SableCC generated build artefacts
+subjects/services/sablecc-3.7/classes/
+subjects/services/sablecc-3.7/lib/sablecc.jar
+
+# Replication package housekeeping
+.ipynb_checkpoints/
+data/data.zip
+data/source-code-export/
